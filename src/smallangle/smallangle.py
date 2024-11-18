@@ -12,6 +12,7 @@ def cmd_group():
 @cmd_group.command()
 @click.option(
     "-n",
+    "--number",
     default=10,)
 def sin(n):
     """calculate the sin of N numbers
